@@ -1,0 +1,3 @@
+"model","reference","reproduced","tolerance","difference","matches"
+"MCO",-2.326,-2.32583596505529,0.001,0.000164034944706515,TRUE
+"MC2E",-4.879,-4.87890255777277,0.001,9.74422272275177e-05,TRUE

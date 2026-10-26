@@ -1,0 +1,30 @@
+[
+  {
+    "file": "datos_vivienda_did.csv",
+    "sha256": "2c13c5c57cf17c67824df67794132e5bbb26f05f13c9a75959750ba48533b75b",
+    "md5": "5eb9b0808f3c6482fa19725f2847db42",
+    "source_sha256": "2c13c5c57cf17c67824df67794132e5bbb26f05f13c9a75959750ba48533b75b",
+    "metadata_cleaned": false
+  },
+  {
+    "file": "oil_shocks.xlsx",
+    "sha256": "691f277871e55f5a8bb8f5c8d13107604acb67d40b3651becfe3993cde908ab4",
+    "md5": "f16bd8511536e5df8ebe02694dacaf1d",
+    "source_sha256": "270ab65ccb9d2b83c554d3c7dfbbbed9b1ea70d2b7b93298a7ee6da1cf78844f",
+    "metadata_cleaned": true
+  },
+  {
+    "file": "datos_ecobaldur.RData",
+    "sha256": "9996c5c492285e07f09f5b280cdfcd539142b5e40273d1748c4b3d388629b798",
+    "md5": "c90e480d84a4131cc1e50918b91f2361",
+    "source_sha256": "9996c5c492285e07f09f5b280cdfcd539142b5e40273d1748c4b3d388629b798",
+    "metadata_cleaned": false
+  },
+  {
+    "file": "ipm_chile.xlsx",
+    "sha256": "390ffcce95b6c5725c042a0062bb6f55e990ee69af91f7e5160709ecfb237f31",
+    "md5": "5b5f9d3570d4d885e590506f42073e0b",
+    "source_sha256": "c4f2600f77d071e336e5649cfd3578c651bf68e7d1ee3d2c84ea22bb5301dae7",
+    "metadata_cleaned": true
+  }
+]

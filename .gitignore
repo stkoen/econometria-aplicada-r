@@ -1,0 +1,11 @@
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+renv/library/
+renv/staging/
+data/publicas/
+proyectos/EE3/data/raw/*.RData
+*.rds
+*.zip
+.DS_Store

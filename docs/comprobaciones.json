@@ -1,0 +1,14 @@
+{
+  "verified_csv_tables": 62,
+  "source_files_preserved": 4,
+  "data_contents_unchanged": 4,
+  "metadata_cleaned_xlsx": 2,
+  "byte_unchanged_distributed_bases": 2,
+  "metadata_cleaned_pdf": 3,
+  "pdf_pages_pixel_and_text_identical": 17,
+  "package_records": 106,
+  "reference_checks": 14,
+  "ee4_questions_mapped": 7,
+  "R": "4.3.3",
+  "clean_run": true
+}

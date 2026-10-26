@@ -1,0 +1,58 @@
+[
+  {
+    "archivo": "ipm_chile.xlsx",
+    "formato": "xlsx",
+    "contenido_verificado": "partes de datos, fórmulas y estilos idénticas",
+    "propiedades_permitidas": [
+      "title",
+      "creator",
+      "created"
+    ],
+    "sha256_copia": "390ffcce95b6c5725c042a0062bb6f55e990ee69af91f7e5160709ecfb237f31"
+  },
+  {
+    "archivo": "oil_shocks.xlsx",
+    "formato": "xlsx",
+    "contenido_verificado": "partes de datos, fórmulas y estilos idénticas",
+    "propiedades_permitidas": [
+      "title",
+      "creator",
+      "created"
+    ],
+    "sha256_copia": "691f277871e55f5a8bb8f5c8d13107604acb67d40b3651becfe3993cde908ab4"
+  },
+  {
+    "archivo": "EE4_informe_original.pdf",
+    "formato": "pdf",
+    "paginas": 11,
+    "contenido_verificado": "texto y píxeles de todas las páginas idénticos",
+    "propiedades_permitidas": [
+      "/Title",
+      "/CreationDate",
+      "/Author"
+    ],
+    "sha256_copia": "73ced1c0e779c8a58d8ba3f9b114f8ba9dd5da3378a98312c387113088806973"
+  },
+  {
+    "archivo": "EE4_enunciado.pdf",
+    "formato": "pdf",
+    "paginas": 2,
+    "contenido_verificado": "texto y píxeles de todas las páginas idénticos",
+    "propiedades_permitidas": [
+      "/Title",
+      "/CreationDate"
+    ],
+    "sha256_copia": "6dfa1cc6a3ab78d34fdfd5b891ddd7e6a2a19a40384535a287373c27b79526cc"
+  },
+  {
+    "archivo": "Instrucciones_EE_Econometria_II.pdf",
+    "formato": "pdf",
+    "paginas": 4,
+    "contenido_verificado": "texto y píxeles de todas las páginas idénticos",
+    "propiedades_permitidas": [
+      "/Title",
+      "/CreationDate"
+    ],
+    "sha256_copia": "2aa044e1463b96924086004c9edbdd45f78172ced5645cdbdecbe771ab86087b"
+  }
+]

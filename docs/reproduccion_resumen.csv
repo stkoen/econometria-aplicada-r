@@ -1,0 +1,15 @@
+ejercicio,referencia,publicado,reproducido,tolerancia,coincide
+EE1,MC2E,-4.879,-4.87890255777277,0.001,True
+EE1,MCO,-2.326,-2.32583596505529,0.001,True
+EE2,log_con_controles,9.6,9.62801505932617,0.15,True
+EE2,log_sin_controles,8.7,8.7128600923323,0.15,True
+EE2,nivel_con_controles,495.0,494.710358416359,1.0,True
+EE2,nivel_sin_controles,452.0,451.740125569384,1.0,True
+EE3,FE,0.1689,0.168858980476317,0.0001,True
+EE3,MCO,0.3601,0.360120355740915,0.0001,True
+EE3,RE,0.209,0.208993479593009,0.0001,True
+EE4,IPM diciembre 2025 por procedimiento original,104.28,104.281738280158,0.02,True
+EE5,"F conjunto HAC, shock provisto",5.23,5.23102254667648,0.01,True
+EE6,dw,0.35,0.349757803402867,0.001,True
+EE6,dy,0.568,0.568450540074874,0.001,True
+EE6,u,0.664,0.663866391612177,0.001,True

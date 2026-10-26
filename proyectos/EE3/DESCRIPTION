@@ -1,0 +1,10 @@
+Package: tarifasAereasPortafolio
+Type: Project
+Title: Concentración y tarifas aéreas: una comparación de modelos de panel
+Version: 0.1.0
+Authors@R: person("Khoen", "San Martín", role = c("aut", "cre"))
+Description: Reproducción revisada de un ejercicio académico de Econometría II,
+    Universidad Diego Portales, segundo semestre de 2025. Comparación de MCO
+    agrupado, efectos aleatorios y efectos fijos con datos públicos airfare.
+Encoding: UTF-8
+Imports: ggplot2, lmtest, plm, sandwich

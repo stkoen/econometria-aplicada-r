@@ -1,0 +1,19 @@
+name: Reproducir EE3
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.3.3'
+          use-public-rspm: true
+      - name: Restaurar dependencias
+        run: Rscript -e 'install.packages("renv", repos="https://cloud.r-project.org"); renv::restore(prompt=FALSE)'
+      - name: Ejecutar y comprobar
+        run: |
+          Rscript --vanilla -e 'renv::load(); source("run.R")'
+          Rscript --vanilla -e 'renv::load(); source("tests/check_reproduction.R")'

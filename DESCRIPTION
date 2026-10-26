@@ -1,0 +1,10 @@
+Package: portafolioEconometria
+Type: Project
+Title: Seis ejercicios de econometría aplicada en R
+Version: 0.3.0
+Authors@R: person("Khoen", "San Martín", role = c("aut", "cre"))
+Description: Reproducción revisada de ejercicios de variables instrumentales,
+    diferencias en diferencias, panel, pronóstico y modelos dinámicos.
+Encoding: UTF-8
+Imports: AER, vars, urca, readxl, ggplot2, lmtest, sandwich, plm, digest, jsonlite,
+    dynlm, forecast, zoo
