@@ -79,3 +79,10 @@ separados de los requisitos evaluados. Las notas académicas no se alteran ni
 se someten a una nueva calificación. El proyecto no ofrece predicciones de
 éxito empresarial ni recomendaciones de inversión o de política causalmente
 identificadas a partir de estas regresiones.
+
+## Herramientas de apoyo
+
+Las entregas originales declararon el uso de herramientas de IA para apoyar
+la preparación del código y los informes. Esta revisión también utilizó
+herramientas de IA en depuración, documentación y comprobaciones.
+Las verificaciones realizadas se describen en COMPROBACIONES.md.
