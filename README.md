@@ -110,14 +110,9 @@ instalación en Windows y macOS no se presenta como verificada.
 [Metadatos de distribución](docs/METADATOS.md) ·
 [Correspondencia del EE4 con sus siete preguntas](proyectos/EE4/ENUNCIADO_Y_REVISION.md).
 
-## Autoría y asistencia
+## Autoría y fuentes
 
-Trabajos académicos de Khoen San Martín. Los enunciados corresponden a Mauricio
-Tejada, UDP. Las bases públicas se atribuyen a sus fuentes; no se reclama su
-autoría. La entrega original declaró el uso de herramientas de IA en la preparación del código y el informe. Esta revisión también emplea herramientas de IA como apoyo en depuración, documentación y comprobaciones; los cambios y resultados fueron revisados por el autor.
-La revisión de portafolio está documentada por separado de las entregas
-académicas originales.
-
-Los PDF docentes y los informes originales con identificadores personales no
-se incorporan. El proyecto de crédito bancario de otro curso no forma parte
-de estos seis ejercicios.
+Portafolio de Khoen San Martín, desarrollado a partir de los ejercicios de
+Econometría II de la Universidad Diego Portales (2025), con enunciados de
+Mauricio Tejada. Las fuentes de datos y el proceso de revisión se detallan en
+[Fuentes y datos](docs/FUENTES.md) y [Cambios y límites](docs/CAMBIOS.md).
