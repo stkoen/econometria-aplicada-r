@@ -112,7 +112,7 @@ instalación en Windows y macOS no se presenta como verificada.
 
 ## Autoría y fuentes
 
-Portafolio de Khoen San Martín, desarrollado a partir de los ejercicios de
-Econometría II de la Universidad Diego Portales (2025), con enunciados de
-Mauricio Tejada. Las fuentes de datos y el proceso de revisión se detallan en
+Trabajos académicos de Khoen San Martín para el curso Econometría II,
+Universidad Diego Portales (2025). Las fuentes de datos y el proceso de
+revisión se detallan en
 [Fuentes y datos](docs/FUENTES.md) y [Cambios y límites](docs/CAMBIOS.md).
