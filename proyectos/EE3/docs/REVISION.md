@@ -51,8 +51,7 @@ para portafolio se distinguen de los requisitos docentes.
 ## Autoría y asistencia
 
 El proyecto deriva de un trabajo académico entregado por Khoen San Martín.
-La entrega declara asistencia de ChatGPT para código y formato. Esta revisión
-también usa asistencia de IA para depuración, documentación y comprobaciones.
+La entrega declara el uso de herramientas de IA como apoyo para el código y el formato. Esta revisión también las emplea en depuración, documentación y comprobaciones; los cambios y resultados fueron revisados por el autor.
 La responsabilidad de revisar, entender y presentar el trabajo corresponde al
 autor; no se atribuye originalidad a la base pública ni a los métodos estándar.
 

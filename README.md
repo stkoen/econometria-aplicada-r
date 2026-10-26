@@ -114,8 +114,7 @@ instalación en Windows y macOS no se presenta como verificada.
 
 Trabajos académicos de Khoen San Martín. Los enunciados corresponden a Mauricio
 Tejada, UDP. Las bases públicas se atribuyen a sus fuentes; no se reclama su
-autoría. La entrega original declaró asistencia de ChatGPT, y esta revisión
-también usa asistencia de IA para depuración, documentación y comprobaciones.
+autoría. La entrega original declaró el uso de herramientas de IA en la preparación del código y el informe. Esta revisión también emplea herramientas de IA como apoyo en depuración, documentación y comprobaciones; los cambios y resultados fueron revisados por el autor.
 La revisión de portafolio está documentada por separado de las entregas
 académicas originales.
 
