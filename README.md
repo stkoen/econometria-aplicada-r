@@ -80,7 +80,7 @@ objetos guardados en una sesión anterior de R.
 
 ```bash
 Rscript --vanilla -e 'install.packages("renv", repos="https://cloud.r-project.org")'
-Rscript --vanilla -e 'renv::restore(prompt=FALSE)'
+Rscript --vanilla -e 'renv::restore(project=getwd(), library=renv::paths$library(project=getwd()), prompt=FALSE)'
 Rscript --vanilla -e 'renv::load(); source("run_all.R")'
 Rscript --vanilla -e 'renv::load(); source("tests/check_all.R")'
 ```
