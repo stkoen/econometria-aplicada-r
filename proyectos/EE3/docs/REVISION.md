@@ -57,7 +57,8 @@ autor; no se atribuye originalidad a la base pública ni a los métodos estánda
 
 ## Publicación
 
-Paquete preparado para revisión previa. No se ha publicado ni se ha modificado
-un perfil de LinkedIn. Antes de publicar se debe confirmar la licencia elegida
-para el código propio y revisar personalmente el informe. Los datos se obtienen
-de su fuente y no se incluyen en el ZIP.
+Esta aplicación forma parte del repositorio público
+https://github.com/stkoen/econometria-aplicada-r desde el 26 de octubre de 2026.
+Los datos se descargan de su fuente durante la primera ejecución y se excluyen
+de Git. Las comprobaciones se documentan en los archivos de este proyecto y
+en la documentación general del repositorio.
