@@ -10,5 +10,11 @@
   "reference_checks": 14,
   "ee4_questions_mapped": 7,
   "R": "4.3.3",
-  "clean_run": true
+  "clean_run": true,
+  "github_actions": {
+    "conclusion": "success",
+    "run_id": 40269256930,
+    "run_url": "https://github.com/stkoen/econometria-aplicada-r/actions/runs/40269256930",
+    "tested_commit": "7a58d4f64e2ed5316aef4ce0fefc469cd1e6d6f0"
+  }
 }

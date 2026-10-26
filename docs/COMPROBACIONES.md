@@ -13,7 +13,10 @@
 - Las figuras se generaron en R y se inspeccionaron visualmente. Los seis informes Markdown se producen desde los resultados, no como tablas transcritas.
 - Dependencias y versiones registradas en renv.lock y sessionInfo.txt.
 
-El código solo se declara ejecutado en el entorno indicado. La instalación completa mediante renv en otro sistema operativo y GitHub Actions no se presentan como comprobadas. Se recuperaron los seis enunciados, las instrucciones generales y su rúbrica.
+GitHub Actions completó también la instalación desde renv.lock, run_all.R y
+tests/check_all.R, con R 4.3.3 en Linux.
+[Ejecución verificada](https://github.com/stkoen/econometria-aplicada-r/actions/runs/40269256930).
+La instalación en Windows y macOS no se presenta como comprobada. Se recuperaron los seis enunciados, las instrucciones generales y su rúbrica.
 Las siete preguntas del EE4 tienen correspondencia explícita en el informe.
 Esto permite revisar las exigencias docentes, pero no reconstruye la
 calificación ni sustituye una corrección oficial del curso.

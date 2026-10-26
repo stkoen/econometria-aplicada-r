@@ -32,8 +32,9 @@ referencia estacional, la reducción descriptiva del RMSE es aproximadamente
 Los seis análisis se ejecutaron en otra carpeta sin resultados ni cachés de
 las bases públicas. Las 62 tablas CSV coinciden entre ejecuciones y las 14
 referencias numéricas contrastadas concuerdan dentro del redondeo declarado.
-El entorno verificado es R 4.3.3 en Linux; el flujo de GitHub Actions está
-preparado y su ejecución remota sigue pendiente.
+El entorno verificado es R 4.3.3 en Linux.
+[GitHub Actions también completó la restauración de dependencias y la ejecución
+de los seis análisis y sus pruebas](https://github.com/stkoen/econometria-aplicada-r/actions/runs/40269256930).
 
 ## Proyectos
 
@@ -87,7 +88,8 @@ Rscript --vanilla -e 'renv::load(); source("tests/check_all.R")'
 
 Algunos paquetes pueden necesitar compiladores y bibliotecas de desarrollo en
 Linux. La ejecución comprobada usa Linux/Ubuntu y R 4.3.3. La restauración del
-lockfile en otros sistemas y GitHub Actions no se presentan como verificadas.
+lockfile y la ejecución en GitHub Actions están comprobadas en Linux. La
+instalación en Windows y macOS no se presenta como verificada.
 
 ## Qué se reproduce y qué se corrige
 
