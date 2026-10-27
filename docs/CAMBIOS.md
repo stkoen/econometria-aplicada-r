@@ -80,9 +80,13 @@ se someten a una nueva calificación. El proyecto no ofrece predicciones de
 éxito empresarial ni recomendaciones de inversión o de política causalmente
 identificadas a partir de estas regresiones.
 
-## Herramientas de apoyo
+## Herramientas de apoyo y autoría
 
-Las entregas originales declararon el uso de herramientas de IA para apoyar
-la preparación del código y los informes. Esta revisión también utilizó
-herramientas de IA en depuración, documentación y comprobaciones.
+Los ejercicios y scripts son trabajos académicos de Khoen San Martín; los
+enunciados, bases y bibliotecas externas se atribuyen a sus fuentes. Las
+entregas originales declararon el uso de herramientas de IA como apoyo en la
+preparación de código e informes. En esta revisión se emplearon herramientas
+de apoyo para ordenar archivos, automatizar ejecuciones, facilitar la
+depuración y comprobar resultados. La revisión y aceptación de los cambios
+corresponden al autor; las herramientas no se atribuyen coautoría.
 Las verificaciones realizadas se describen en COMPROBACIONES.md.
