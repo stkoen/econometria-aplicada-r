@@ -189,5 +189,5 @@ report(c("# EE4: pronóstico del IPM de Chile","",
  sprintf("Estabilidad del AR revisado: %s, comprobada con raíces fuera del círculo unidad.",stable),"",
  "## Conclusión y reflexión","",
  sprintf("El AR(%d) resume dependencia temporal del crecimiento y entrega un índice de diciembre cercano a %.2f al exponenciar el pronóstico logarítmico. La evaluación histórica de 24 meses permite comparar su error con referencias simples. El promedio de tasas interanuales de 2025 no debe presentarse como crecimiento diciembre/diciembre. La principal lección es mantener comparables las muestras y los estimadores, precisar la hipótesis F y distinguir evidencia dentro y fuera de muestra.",p,tail(forecast$level_median,1)),"",
- "Fuentes: base y enunciado de Mauricio Tejada, UDP, Econometría II 2025-S2. Código reproducible en ../analysis.R; trazabilidad y asistencia declaradas en el README general."
+ "Material docente: Econometría II, Universidad Diego Portales (2025), Ejercicio Empírico 4. Código en ../analysis.R; fuentes y revisión en la documentación general del repositorio."
 ))

@@ -1,12 +1,6 @@
-# Comprobaciones de este bloque
+# Comprobaciones de EE3
 
-Fecha de revisión: 25 de octubre de 2026.
-
-## Resultado
-
-La versión revisada reprodujo los resultados centrales de la entrega original
-en un proceso de R limpio. Después se copió el proyecto a otra carpeta sin la
-base descargada ni las salidas, se volvió a ejecutar y se compararon sus tablas.
+La revisión local del 25 de octubre de 2026 se realizó con R 4.3.3 en Linux/Ubuntu 24.04. Se ejecutó el análisis en dos carpetas independientes, repitiendo la descarga de la base y la generación de resultados.
 
 | Referencia de la entrega | Original, redondeado | Reproducción |
 |---|---:|---:|
@@ -16,42 +10,10 @@ base descargada ni las salidas, se volvió a ejecutar y se compararon sus tablas
 | Hausman, estadístico | 9,9967 | 9,9967275696 |
 | Hausman, p-valor | 0,04048 | 0,0404828417 |
 
-Se usó una tolerancia de 0,0001 en los coeficientes, acorde con el redondeo
-publicado. Los nueve CSV generados fueron idénticos byte por byte entre las dos
-carpetas de ejecución. Las comprobaciones de `tests/check_reproduction.R`
-pasaron en ambas carpetas. Las tres figuras exportadas se inspeccionaron
-visualmente.
+La tolerancia de coeficientes fue 0,0001, acorde con el redondeo publicado. Los nueve CSV coincidieron byte por byte y `tests/check_reproduction.R` pasó en ambas carpetas. Las tres figuras se inspeccionaron visualmente.
 
-## Archivo original y alcance
+La revisión también identificó y corrigió una llave de cierre sin apertura en la línea 162 del script recibido. Las identidades de los archivos originales se documentan en [REVISION.md](REVISION.md).
 
-El análisis sintáctico del script exacto recibido devuelve:
+Versiones del entorno: `results/sessionInfo.txt` y `renv.lock`. La ejecución remota posterior y las comprobaciones del conjunto de seis ejercicios se registran en [la documentación general](../../../docs/COMPROBACIONES.md).
 
-```text
-Script_EE3.R:162:1: unexpected '}'
-```
-
-Eso impide ejecutar íntegramente ese archivo mediante `source()`. No permite
-concluir que los resultados de la entrega fueran inventados o que no se
-hubieran obtenido ejecutando otra versión o partes del script. Los números
-anteriores sí han sido reproducidos con los datos públicos.
-
-Los hashes de los archivos originales permanecieron iguales después del
-trabajo. No se sobrescribieron las entregas ni se incorporó su identificador
-personal a la versión revisada.
-
-## Entorno y límites de la comprobación
-
-- R 4.3.3, Linux / Ubuntu 24.04, x86-64.
-- Versiones detalladas en `results/sessionInfo.txt`; 43 registros de paquetes
-  en `renv.lock`, incluidas dependencias transitivas.
-- Se comprobaron descarga, hash, integridad de datos, ejecución, resultados
-  numéricos, exportaciones y repetición en una carpeta nueva.
-- La restauración completa de `renv.lock` en otro sistema operativo y la
-  ejecución remota de GitHub Actions quedan sin comprobar. No se presentan
-  como pruebas superadas.
-- Se recuperó y leyó el enunciado del EE3. La correspondencia con sus ocho
-  preguntas se documenta en `ENUNCIADO.md`. La pauta no está recuperada: no se
-  emite una nueva calificación académica ni se audita cada afirmación del PDF
-  original.
-- Este bloque no comprueba todavía los otros cinco ejercicios ni el proyecto
-  posterior sobre decisiones de crédito.
+Estas comprobaciones verifican ejecución y coincidencia numérica; la identificación econométrica se discute en el informe.

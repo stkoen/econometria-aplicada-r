@@ -34,4 +34,4 @@ El modelo usa kids y hours, como la ecuación y la estimación instrumental del 
 
 Se cubren descriptivos, MCO, discusión de endogeneidad, instrumento, primera etapa, MC2E y conclusiones. Los errores HC1 se exportan como análisis adicional. Se conserva la comparación convencional para reproducir las cifras entregadas.
 
-Fuente: https://justinmshea.github.io/wooldridge/reference/labsup.html. Enunciado docente: Mauricio Tejada, Ejercicio Empírico 1: Margen Intensivo de la Participación Laboral Femenina.
+Fuente de datos: https://justinmshea.github.io/wooldridge/reference/labsup.html. Material docente: Econometría II, Universidad Diego Portales (2025), Ejercicio Empírico 1.

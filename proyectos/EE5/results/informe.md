@@ -44,4 +44,4 @@ Si una mayor actividad de Estados Unidos eleva el precio del petróleo, la medid
 | --- | --- | --- | --- | --- | --- |
 | F conjunto HAC, shock provisto | 5.2300 | 5.2310 | 0.0100 | 0.0010 | TRUE |
 
-Fuente docente: Mauricio Tejada, Ejercicio Empírico 5: El Impacto de los Shocks en el Precio del Petróleo. La última pregunta y la fórmula de 12 meses se incorporan explícitamente. Archivo fuente: oil_shocks.xlsx, conservado por hash.
+Material docente: Econometría II, Universidad Diego Portales (2025), Ejercicio Empírico 5. Archivo fuente: oil_shocks.xlsx; se comparan las definiciones de 12 y 36 meses.

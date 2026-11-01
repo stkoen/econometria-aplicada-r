@@ -30,14 +30,9 @@ Los PDF de origen no se publican como parte del repositorio de código.
   El AIC relativo de ar y el AIC de las regresiones no se comparan como si
   fueran la misma cifra; Yule-Walker y MCO son estimadores distintos.
 
-## Instrucciones generales y alcance del portafolio
+## Alcance de la revisión
 
-El informe generado incluye descripción de datos, descriptivos, respuestas,
-conclusión y reflexión. El código comentado se entrega por separado y los
-gráficos se generan directamente, sin pantallazos de consola. El curso pidió
-PDF para la entrega académica; los seis informes del portafolio se distribuyen
-en Markdown para su lectura en GitHub. Esto no se presenta como una nueva
-entrega académica ni como una evaluación oficial bajo la rúbrica.
-
-Las ampliaciones de validación temporal, comparación con referencias y
-transformaciones lognormales se identifican como revisión para portafolio.
+El informe Markdown se genera desde los resultados e incluye datos,
+descriptivos, respuestas y conclusiones. La validación temporal, las
+comparaciones con referencias y la distinción entre media y mediana
+lognormal amplían el análisis de la entrega de 2025.

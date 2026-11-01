@@ -1,9 +1,8 @@
-# Correspondencia con el enunciado recuperado
+# Preguntas y resultados
 
-Referencia docente: Mauricio Tejada, *Ejercicio Empírico 3: El Mercado de Rutas
-Aéreas*, Departamento de Economía, Universidad Diego Portales, 4 páginas.
-El autor había proporcionado este archivo como `Ejercicio Empírico 3.pdf`.
-Se ha leído el documento completo. El PDF docente se conserva por separado.
+Referencia: *Ejercicio Empírico 3: El Mercado de Rutas Aéreas*, Econometría II,
+Universidad Diego Portales (2025), 4 páginas. El PDF docente se conserva fuera
+del repositorio.
 
 | Pregunta | Requisito | Dónde se aborda |
 |---|---|---|
@@ -21,15 +20,12 @@ Todas las rutas de resultados de esta tabla están bajo `results/`.
 ## Precisiones de la revisión
 
 El enunciado llama punto de inflexión al vértice de la cuadrática. La revisión
-usa el término mínimo/vértice por precisión matemática. La terminología usada
-en la entrega, por tanto, seguía la indicación docente; no se presenta como un
-incumplimiento del estudiante.
+usa mínimo/vértice por precisión matemática.
 
 Aunque la descripción de `bmktshr` menciona porcentajes, la base la almacena
 como fracción entre 0 y 1 y las preguntas usan un cambio de 0,1. Se interpreta
 como aumento de 10 puntos porcentuales, no de 0,1 puntos porcentuales.
 
-El enunciado pide inferencia robusta pero no impone un Hausman auxiliar robusto,
-validación predictiva ni un diseño causal adicional. No se convierten esas
-ampliaciones potenciales en requisitos de la entrega. La revisión para
-portafolio explicita límites de identificación y documenta la ejecución.
+El ejercicio solicita inferencia robusta. La revisión distingue la covarianza
+agrupada de los coeficientes del contraste clásico de Hausman y explicita los
+límites de identificación.

@@ -1,28 +1,9 @@
-# Propiedades de los archivos de distribución
+# Integridad de los archivos
 
-Las dos bases XLSX se distribuyen como copias con propiedades reducidas a
-título del archivo, nombre del responsable de esta copia y fecha de revisión.
-Se retiraron las propiedades de aplicación, última edición, rutas absolutas,
-identificadores de colaboración y miniaturas. Las hojas, sus celdas, fórmulas,
-estilos y datos se conservaron byte por byte dentro del paquete XLSX.
+Las dos bases XLSX se distribuyen con propiedades reducidas a título, responsable de la copia y fecha de revisión. Se retiraron rutas absolutas, identificadores de colaboración, miniaturas y propiedades de aplicación y última edición.
 
-El nombre en las propiedades identifica al responsable de preparar la copia;
-no atribuye la autoría de los datos. Sus fuentes se declaran en FUENTES.md.
-Las bases recibidas originalmente se conservan fuera del repositorio. El
-manifiesto separa el SHA-256 de la copia distribuida del archivo recibido.
-Las otras dos bases mantienen los mismos bytes del archivo proporcionado.
+Las partes que contienen hojas, celdas, fórmulas, estilos y datos se conservaron byte por byte. El responsable de la copia no se atribuye la autoría de los datos; las fuentes se documentan en [FUENTES.md](FUENTES.md).
 
-Los gráficos PNG contienen resolución de imagen y no campos de autor,
-comentarios, rutas o software. Los archivos R, CSV, JSON y Markdown son texto:
-su documentación y las versiones de paquetes son contenido visible para
-permitir la reproducción, no propiedades ocultas del archivo.
+`data/manifest.json` registra los hashes SHA-256 de las versiones recibidas y distribuidas. Las bases CSV y RData conservan sus bytes originales. El registro técnico se mantiene en `auditoria_metadatos.json`.
 
-Las copias PDF entregadas aparte conservan solo título, fecha y, para el
-informe propio, autor. Los enunciados de terceros no se atribuyen al usuario.
-Se verificó igualdad del texto y de los píxeles de las 17 páginas. El cambio
-de metadatos no corrige ni elimina información visible del informe original.
-
-Los ZIP de distribución se reconstruyen sin comentarios ni campos extra de
-sus miembros, con nombres relativos y permisos estándar. No incluyen rutas
-del entorno de trabajo. Los metadatos que una plataforma o sistema operativo
-añada después de la descarga quedan fuera de esta comprobación.
+Los PNG conservan información de resolución. La documentación y las versiones de paquetes en archivos de texto forman parte del contenido visible necesario para reproducir los análisis.

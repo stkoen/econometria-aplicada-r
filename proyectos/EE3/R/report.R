@@ -37,10 +37,10 @@ write_report <- function(effects, hausman, reproduction, distance_minimum,
     "## Distancia", "",
     sprintf("En MCO, la parábola en log(distancia) tiene su mínimo en %.1f millas, fuera del rango observado (95–2.724). La elasticidad parcial estimada es positiva en ese rango. El vértice es un mínimo, no un punto de inflexión; la convexidad en coordenadas logarítmicas no implica convexidad del precio en niveles.", distance_minimum), "",
     "## Reproducción y alcance", "",
-    "Los tres coeficientes de concentración y el Hausman clásico coinciden con los publicados en 2025 dentro del redondeo indicado en `reproduction_original.csv`. Esto reproduce resultados puntuales de la entrega; no certifica cada frase o gráfico del PDF original.", "",
+    "Los tres coeficientes de concentración y el Hausman clásico coinciden con las referencias de 2025 dentro del redondeo indicado en `reproduction_original.csv`.", "",
     "FE controla características de ruta invariantes y los efectos de año capturan shocks anuales comunes. Permanecen posibles factores omitidos que cambian por ruta y año, simultaneidad entre tarifas y concentración y error de medición. La lectura defendible es una asociación condicionada, sin un efecto causal demostrado.", "",
     "Dos ejemplos de heterogeneidad fija potencialmente correlacionada con concentración son la condición persistente de conexión con un aeropuerto-hub y la disponibilidad persistente de alternativas de transporte terrestre. Su tratamiento como invariante se refiere a la ventana observada.", "",
-    "Es una aplicación docente sobre una base histórica conocida. No se presenta como investigación original ni como evidencia sobre el mercado chileno actual.", "",
+    "La evidencia corresponde a rutas aéreas de Estados Unidos entre 1997 y 2000.", "",
     "## Archivos", "",
     "Tablas completas en CSV, figuras PNG y `sessionInfo.txt` se generan con `Rscript --vanilla run.R`. Fuentes, revisión y correspondencia con las ocho preguntas: `../docs/FUENTES.md`, `../docs/REVISION.md` y `../docs/ENUNCIADO.md`."
   )

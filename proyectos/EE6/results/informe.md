@@ -71,4 +71,4 @@ Las participaciones se verifican para sumar uno por variable y horizonte. Su int
 | dy | dy.l1 | 0.5680 | 0.5685 | 0.0010 | 0.0005 | TRUE |
 | u | u.l1 | 0.6640 | 0.6639 | 0.0010 | -0.0001 | TRUE |
 
-Fuente docente: Mauricio Tejada, Ejercicio Empírico 6: El Mercado Laboral de la Economía de Baldur. La corrección de gráficos afecta las interpretaciones gráficas; no modifica los coeficientes del VAR reducido.
+Material docente: Econometría II, Universidad Diego Portales (2025), Ejercicio Empírico 6. La revisión de los gráficos corrige la identificación de impulsos y respuestas.

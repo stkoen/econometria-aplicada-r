@@ -77,5 +77,5 @@ report(c("# EE6: VAR del caso docente de Baldur","",
  "## Varianza del error de predicción","",md_table(f8),
  "Las participaciones se verifican para sumar uno por variable y horizonte. Su interpretación depende del orden de identificación y se limita a la varianza del error de pronóstico del modelo.","",
  "## Cifras originales reproducidas","",md_table(repro),
- "Fuente docente: Mauricio Tejada, Ejercicio Empírico 6: El Mercado Laboral de la Economía de Baldur. La corrección de gráficos afecta las interpretaciones gráficas; no modifica los coeficientes del VAR reducido."
+ "Material docente: Econometría II, Universidad Diego Portales (2025), Ejercicio Empírico 6. La revisión de los gráficos corrige la identificación de impulsos y respuestas."
 ))

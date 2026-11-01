@@ -105,5 +105,5 @@ report(c("# EE5: shock petrolero y producción industrial","",
  "## Exogeneidad: pregunta 6 del enunciado","",
  "Si una mayor actividad de Estados Unidos eleva el precio del petróleo, la medida petrolera puede correlacionarse con perturbaciones de la producción industrial. El modelo DL no identifica por sí solo efectos causales; HAC corrige la inferencia frente a heterocedasticidad y autocorrelación, no la endogeneidad. También pueden existir variables omitidas y heterogeneidad entre shocks de oferta y demanda petrolera.","",
  "## Reproducción de la entrega","",md_table(repro),
- "Fuente docente: Mauricio Tejada, Ejercicio Empírico 5: El Impacto de los Shocks en el Precio del Petróleo. La última pregunta y la fórmula de 12 meses se incorporan explícitamente. Archivo fuente: oil_shocks.xlsx, conservado por hash."
+ "Material docente: Econometría II, Universidad Diego Portales (2025), Ejercicio Empírico 5. Archivo fuente: oil_shocks.xlsx; se comparan las definiciones de 12 y 36 meses."
 ))

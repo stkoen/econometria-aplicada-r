@@ -2,9 +2,9 @@
 
 ## Enunciado docente
 
-Mauricio Tejada. *Ejercicio Empírico 3: El Mercado de Rutas Aéreas*.
-Departamento de Economía, Universidad Diego Portales. Documento de 4 páginas
-proporcionado previamente por el autor como `Ejercicio Empírico 3.pdf`.
+*Ejercicio Empírico 3: El Mercado de Rutas Aéreas*. Material docente de
+Econometría II, Departamento de Economía, Universidad Diego Portales (2025),
+4 páginas.
 Véase `ENUNCIADO.md` para la correspondencia entre requisitos y resultados.
 
 ## Datos
@@ -19,9 +19,8 @@ Véase `ENUNCIADO.md` para la correspondencia entre requisitos y resultados.
 - MD5: `da5f3d5264aeb420b1d216279316bc7a`.
 - SHA-256: `cda45863cac8268763a15af16955e8fd6c0c40187f5b28f0b2264999210edd95`.
 
-No se incorpora la base al repositorio ni se atribuye su autoría a Khoen. Se
-descarga de la fuente y se valida su identidad. El paquete fuente declara GPL-3;
-no se extiende esa declaración a materiales del curso ni a otros documentos.
+La base se descarga de su fuente y se valida su identidad. El paquete fuente
+declara GPL-3; esa declaración no se extiende a los materiales del curso.
 
 ## Variables usadas
 
